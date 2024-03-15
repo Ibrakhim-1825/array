@@ -102,19 +102,19 @@
 
 // 11-masala
 
-// function boluvchilariniTop(raqam) {
-//     let boluvchilar = [];
-//     for (let i = 1; i <= raqam; i++) {
-//         if (raqam % i === 0) {
-//             boluvchilar.push(i);
-//         }
-//     }
-//     return boluvchilar;
-// }
+function boluvchilariniTop(raqam) {
+    let boluvchilar = [];
+    for (let i = 1; i <= raqam; i++) {
+        if (raqam % i === 0) {
+            boluvchilar.push(i);
+        }
+    }
+    return boluvchilar;
+}
 
-// let raqam = 25;
-// let boluvchilar = boluvchilariniTop(raqam);
-// console.log(raqam + " raqami boluvchilari: " + boluvchilar);
+let raqam = 25;
+let boluvchilar = boluvchilariniTop(raqam);
+console.log(raqam + " raqami boluvchilari: " + boluvchilar);
 
 
 
